@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+ 
+}
+
+body {
+  background-image: radial-gradient( circle at 1.4% 94.3%,  rgba(255,155,141,1) 0%, rgba(244,202,125,1) 33.2%, rgba(241,251,150,1) 54.2%, rgba(180,251,150,1) 68.1%, rgba(125,244,232,1) 82%, rgba(216,204,252,1) 93.9% );  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin:0;
+}
+
+h1 {
+  color: rgb(194, 44, 187);
+  font-size: 10rem;
+  text-align: center;
+  opacity: 0.5;
+}
+
+form {
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 400px;
+}
+
+.input {
+  background-color: transparent;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+ 
+}
+
+.input::placeholder {
+  color: #1b1b1b;
+  
+}
+
+.todos {
+  padding: 0;
+  margin: 0;
+  list-style-type:none;
+}
+
+.todos li { 
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.todos li.completed {
+  color: #0f0f0f;
+  text-decoration: line-through;
+}
+
+small {
+  color: #520b0b;
+  margin-top: 1rem;
+  text-align: center;
+}
